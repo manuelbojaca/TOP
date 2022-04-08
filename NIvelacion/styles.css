@@ -1,0 +1,19 @@
+h1 {
+    color: red;
+}
+p {
+    color: green;
+}
+#spanred{
+    color: red;
+}
+.noOrdenada {
+    background: black;
+    color: white;
+}
+.ordenada {
+    background: yellow;
+}
+.listasp{
+    color: black;
+}
