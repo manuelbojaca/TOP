@@ -1,0 +1,230 @@
+h1 {
+    color: red;
+}
+
+p {
+    color: green;
+}
+
+#spanred{
+    color: red;
+}
+
+.form-div {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.listasp {
+    color: black;
+}
+
+.noOrdenada {
+    background: black;
+    color: white;
+}
+
+.ordenada {
+    background: yellow;
+}
+
+table, th, tr, td {
+    border: 1px solid red;
+    border-collapse: collapse;
+}
+
+/*posicionamiento*/
+.sol {
+    width: 400px;
+    height: 400px;
+    background: radial-gradient(red, yellow );
+    border-radius: 200px;
+    position: fixed;
+    top: 30px;
+    right: 1000px;
+  }
+
+.mar {
+    width: 100%;
+    height: 800px;
+    background: linear-gradient(white , blue );
+    position: relative;
+    bottom: 100px;
+  }
+
+.cabeza {
+    width: 400px;
+    height: 400px;
+    position: relative;
+    background-color: cadetblue;
+    box-shadow: 10px 10px 20px 10px grey;
+  }
+  
+  .ojo {
+    width: 100px;
+    height: 100px;
+    background-color: burlywood;
+    position: absolute;
+    top:100px;
+    right: 0px;
+  }
+  
+  .pupila {
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    position: absolute;
+    top:30px;
+    right: 0px;
+  }
+  
+  .boca {
+    width: 143px;
+    height: 20px;
+    background-color: pink;
+    position: absolute;
+    top: 300px;
+    right: 0px;
+  }
+  
+  .cuerpo {
+    width: 300px;
+    height: 500px;
+    position: relative;
+    background-color: black;
+    box-shadow: 10px 10px 20px 10px grey;
+  }
+  
+  .mano {
+    width: 200px;
+    height: 50px;
+    position: relative;
+    background-color: red;
+    top: 200px;
+    left: 200px;
+    box-shadow: 10px 10px 20px 10px grey;
+  }
+  
+  .mensaje{
+    width: 400px;
+    height: 100px;
+    padding-bottom: 20px;
+    position: fixed;
+    border: 2px dashed blue;
+    top: 300px;
+    left: 600px;
+    text-align: center;
+    box-shadow: 5px 10px 20px 20px grey;
+    text-shadow: 2px 2px 30px red;
+  }
+  h1 {
+    margin-top: 40px;
+  }
+
+  /*selectores*/
+
+  .primer-contenedor {
+    width: 100%;
+    height: 250px;
+    background-color: #1c2742;
+    color: white;
+  }
+  
+  #titular {
+    text-align: center;
+    position: relative;
+    top: 100px;
+  }
+  
+  h1 , h2, h3 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .productos {
+    width: 100%;
+    height: 200px;
+    background-color: #1c2742;
+  }
+  
+  .productos > div {
+    position: relative;
+    top: 55px;
+  }
+  
+  .productos p {
+    color: white;
+    text-align: center;
+    position: relative;
+  }
+  
+  a:link {
+    color: red;
+  }
+  
+  a:visited {
+    color: green;
+  }
+  
+  a:hover {
+    color: blueviolet;
+  }
+
+  /*Media queries*/
+
+  .mediaq {
+    width: 100%;
+    height: 500px;
+    font-size: 12px;
+    background-color: #1c2742;
+  }
+  
+  .mediaq h1 {
+    color: white;
+    position: relative;
+    top: 180px;
+    text-align: center;
+  }
+  
+  @media(min-width: 768px) {
+    .mediaq {
+      font-size: 16px;
+      background-color: black;
+    }
+  
+    .mediaq h1 {
+      color: yellow;
+      position: relative;
+      top: 180px;
+      text-align: center;
+    }
+  }
+  
+  @media(min-width: 992px) {
+    .mediaq {
+      font-size: 20px;
+      background-color: white;
+    }
+  
+    .mediaq h1 {
+      color: #ff7a59;
+      position: relative;
+      top: 180px;
+      text-align: center;
+    }
+  }
+  
+  @media(min-width: 1200px) {
+    .mediaq {
+      font-size: 24px;
+      background-color: black;
+    }
+  
+    .mediaq h1 {
+      color: pink;
+      position: relative;
+      top: 180px;
+      text-align: center;
+    }
+  }
